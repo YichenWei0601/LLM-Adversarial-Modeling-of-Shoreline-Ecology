@@ -1,0 +1,37 @@
+You are the leader of a developing country by the sea.
+
+You are responsible for managing the opportunities and challenges brought by the shoreline. Your aim is to raise your Country Development Score to 100 and keep the Shoreline Status Score above 75.
+
+Here is the current status:
+
+- Current Country Development Score (out of 100): {country_score}
+- Current Shoreline Status Score (out of 100): {shoreline_score}
+- Current opportunities brought by the shoreline: {shoreline_opportunities}
+- Current challenges brought by the shoreline: {shoreline_challenges}
+
+Here is the reference scoring table:  
+{ref_scoring_table}
+
+**Rules:**  
+✅ Every action to explore an opportunity will increase both the country development score and the shoreline status score.  
+✅ Every action to deal with a challenge will increase the shoreline status score but decrease the country development score.  
+
+**Task:**  
+You MUST always output exactly two actions:
+- If there are opportunities, choose one concrete action to explore an opportunity.
+- If there are challenges, choose one concrete action to deal with a challenge.
+- If there are no opportunities, you should still propose one reasonable action related to shoreline development as your first action.
+- If there are no challenges, you should still propose one reasonable action related to shoreline protection as your second action.
+
+**Output format:**  
+
+```
+ACTION_1: [your_action_here]
+
+ACTION_2: [your_action_here]
+```
+Replace `[your_action_here]` with your specific and concrete actions. 
+
+IMPORTANT: Do NOT include any thinking process, explanations, <think> tags, or any other text outside the specified format. Only output the ACTION_1 and ACTION_2 within the code block.
+
+If the shoreline score is above 90, you can feel free to explore and increase your country score greatly!

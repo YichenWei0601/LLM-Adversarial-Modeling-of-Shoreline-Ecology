@@ -1,0 +1,120 @@
+{
+  "game_summary": {
+    "initial_scores": {
+      "country": 60,
+      "shoreline": 100
+    },
+    "final_scores": {
+      "country": 65,
+      "shoreline": 100
+    },
+    "total_years": 3,
+    "victory": false,
+    "game_over_reason": "游戏进行中",
+    "yearly_records": 3
+  },
+  "yearly_records": [
+    {
+      "year": 1,
+      "country_score": 63,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "第1年行动1：发展绿色技术",
+        "action_2": "第1年行动2：加强环保监管"
+      },
+      "shore_response": {
+        "opportunities": "第1年新机遇：海洋科技发展",
+        "challenges": "第1年新挑战：气候变化加剧"
+      },
+      "judge_scores": {
+        "first_country": 2,
+        "first_shoreline": 1,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "珊瑚礁复苏",
+          "description": "珊瑚礁生态系统自然恢复",
+          "country_impact": 2,
+          "shoreline_impact": 8,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 4,
+        "random_country_impact": 2,
+        "random_shoreline_impact": 8
+      }
+    },
+    {
+      "year": 2,
+      "country_score": 64,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "第2年行动1：发展绿色技术",
+        "action_2": "第2年行动2：加强环保监管"
+      },
+      "shore_response": {
+        "opportunities": "第2年新机遇：海洋科技发展",
+        "challenges": "第2年新挑战：气候变化加剧"
+      },
+      "judge_scores": {
+        "first_country": 2,
+        "first_shoreline": 1,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "渔业资源波动",
+          "description": "渔业资源因自然因素波动",
+          "country_impact": 0,
+          "shoreline_impact": -3,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 4,
+        "random_country_impact": 0,
+        "random_shoreline_impact": -3
+      }
+    },
+    {
+      "year": 3,
+      "country_score": 65,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "第3年行动1：发展绿色技术",
+        "action_2": "第3年行动2：加强环保监管"
+      },
+      "shore_response": {
+        "opportunities": "第3年新机遇：海洋科技发展",
+        "challenges": "第3年新挑战：气候变化加剧"
+      },
+      "judge_scores": {
+        "first_country": 2,
+        "first_shoreline": 1,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": 0,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 4,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    }
+  ]
+}

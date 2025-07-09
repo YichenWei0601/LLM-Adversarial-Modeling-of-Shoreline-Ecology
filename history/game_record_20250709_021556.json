@@ -1,0 +1,579 @@
+{
+  "game_summary": {
+    "initial_scores": {
+      "country": 60,
+      "shoreline": 100
+    },
+    "final_scores": {
+      "country": 100,
+      "shoreline": 87
+    },
+    "total_years": 18,
+    "victory": true,
+    "game_over_reason": "国家发展达到100分，获得胜利",
+    "yearly_records": 18
+  },
+  "yearly_records": [
+    {
+      "year": 1,
+      "country_score": 64,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Use organic fertilizer"
+      },
+      "shore_response": {
+        "challenges": "Overfishing leading to depletion of fish stocks and disruption of food webs.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -3,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": 0,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 2,
+      "country_score": 63,
+      "shoreline_score": 99,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can provide opportunities for economic growth, employment, and food security for communities reliant on the sea.",
+        "challenges": "Closing fisheries may lead to a decrease in income and livelihoods for those dependent on fishing activities, as well as potential conflicts over resource use and management."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -4,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "极端高温",
+          "description": "海洋极端高温事件",
+          "country_impact": -2,
+          "shoreline_impact": -3,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 0,
+        "shoreline": 0,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 3,
+      "country_score": 67,
+      "shoreline_score": 98,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Promote public transportation"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can provide economic opportunities for local communities and contribute to sustainable seafood production.",
+        "challenges": "Promoting public transportation may increase human activity along the shoreline, leading to potential pollution and habitat disturbance."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -2,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 4,
+      "country_score": 71,
+      "shoreline_score": 97,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Promote public transportation"
+      },
+      "shore_response": {
+        "opportunities": "Increased fisheries development could lead to sustainable harvesting of seafood and economic opportunities for local communities.",
+        "challenges": "Introducing public transportation near the shoreline may lead to increased pollution and disturbance of coastal habitats."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -2,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 5,
+      "country_score": 77,
+      "shoreline_score": 97,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Promote public transportation"
+      },
+      "shore_response": {
+        "challenges": "Overfishing and disruption of marine ecosystems due to increased fishing activities.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [
+        {
+          "name": "生态旅游兴起",
+          "description": "生态旅游带来经济效益",
+          "country_impact": 2,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -2,
+        "random_country_impact": 2,
+        "random_shoreline_impact": 1
+      }
+    },
+    {
+      "year": 6,
+      "country_score": 79,
+      "shoreline_score": 99,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "challenges": "Disruption to the ecosystem from the closure of factories may lead to shifts in species composition and habitat degradation.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 7,
+      "country_score": 81,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "challenges": "Overfishing and bycatch leading to depletion of fish populations and disruption of the marine food web.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "珊瑚礁复苏",
+          "description": "珊瑚礁生态系统自然恢复",
+          "country_impact": 1,
+          "shoreline_impact": 3,
+          "occurred": true
+        },
+        {
+          "name": "洋流变化",
+          "description": "海洋洋流模式发生变化",
+          "country_impact": -1,
+          "shoreline_impact": -1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 2
+      }
+    },
+    {
+      "year": 8,
+      "country_score": 82,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "With the development of fisheries, there is an opportunity to increase economic benefits for local communities through the sale of seafood products.",
+        "challenges": "Closing fisheries may lead to a decline in fish populations, disrupting the balance of the ecosystem and impacting other marine species dependent on them."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -4,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 0,
+        "shoreline": 0,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 9,
+      "country_score": 84,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "challenges": "Potential overfishing leading to depletion of fish populations and disruption of the food chain.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 10,
+      "country_score": 84,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Increased fish populations and biodiversity due to sustainable fisheries development.",
+        "challenges": "Potential pollution from remaining factories impacting water quality and marine life."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "洋流变化",
+          "description": "海洋洋流模式发生变化",
+          "country_impact": 0,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -1
+      }
+    },
+    {
+      "year": 11,
+      "country_score": 86,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "challenges": "Overfishing and depletion of fish stocks if fisheries are not managed sustainably.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 12,
+      "country_score": 92,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "Increased biodiversity and ecosystem health due to sustainable fisheries management.",
+        "challenges": "Disruption of the food chain and negative impacts on local communities dependent on fishing for livelihoods."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "珊瑚礁复苏",
+          "description": "珊瑚礁生态系统自然恢复",
+          "country_impact": 1,
+          "shoreline_impact": 3,
+          "occurred": true
+        },
+        {
+          "name": "海洋保护区成效",
+          "description": "海洋保护区政策显现成效",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 0,
+        "random_country_impact": 4,
+        "random_shoreline_impact": 6
+      }
+    },
+    {
+      "year": 13,
+      "country_score": 94,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Increased biodiversity and ecosystem health due to improved fishing regulations and sustainable practices.",
+        "challenges": "Potential disruption to existing ecosystems and habitats as a result of changes in factory operations and waste disposal."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 14,
+      "country_score": 94,
+      "shoreline_score": 99,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Increased fish populations and biodiversity due to sustainable fishing practices and improved water quality from reduced industrial pollution.",
+        "challenges": "Disruption of existing ecosystems and habitats from increased fishing activities and potential loss of jobs and economic impact from factory closures."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "海岸侵蚀",
+          "description": "长期海岸侵蚀加剧",
+          "country_impact": -1,
+          "shoreline_impact": -2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -3
+      }
+    },
+    {
+      "year": 15,
+      "country_score": 94,
+      "shoreline_score": 99,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "challenges": "Closing factories may lead to job losses and economic hardship for those employed in the industry, potentially impacting the local economy and community.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "渔业资源波动",
+          "description": "渔业资源因自然因素波动",
+          "country_impact": 0,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 16,
+      "country_score": 98,
+      "shoreline_score": 98,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Promote public transportation"
+      },
+      "shore_response": {
+        "challenges": "Promoting public transportation near the shoreline may increase human disturbance and pollution in coastal areas, impacting the local marine ecosystem.",
+        "opportunities": ""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -2,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 17,
+      "country_score": 98,
+      "shoreline_score": 95,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Improved water quality and reduced pollution due to decreased industrial runoff from closed factories and reduced emissions from fewer cars on the road.",
+        "challenges": "Disruption of existing habitats and ecosystems due to changes in water flow patterns and natural processes caused by altered human activities."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -3,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [
+        {
+          "name": "渔业资源波动",
+          "description": "渔业资源因自然因素波动",
+          "country_impact": 0,
+          "shoreline_impact": -2,
+          "occurred": true
+        },
+        {
+          "name": "气候变化影响",
+          "description": "气候变化对海岸线造成缓慢影响",
+          "country_impact": 1,
+          "shoreline_impact": -2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": -4,
+        "random_shoreline_impact": -3
+      }
+    },
+    {
+      "year": 18,
+      "country_score": 100,
+      "shoreline_score": 87,
+      "country_actions": {
+        "action_1": "Close some factories",
+        "action_2": "Develop fisheries"
+      },
+      "shore_response": {
+        "opportunities": "Increased biodiversity and improved water quality from reducing industrial pollution by closing factories.",
+        "challenges": "Overfishing and disruption of marine ecosystems from developing fisheries without proper management."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": 4,
+        "second_shoreline": -3
+      },
+      "random_events": [
+        {
+          "name": "渔业资源波动",
+          "description": "渔业资源因自然因素波动",
+          "country_impact": 0,
+          "shoreline_impact": 0,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 8,
+        "shoreline": -7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    }
+  ]
+}

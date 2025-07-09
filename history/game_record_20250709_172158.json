@@ -1,0 +1,761 @@
+{
+  "game_summary": {
+    "initial_scores": {
+      "country": 60,
+      "shoreline": 100
+    },
+    "final_scores": {
+      "country": 79,
+      "shoreline": 100
+    },
+    "total_years": 25,
+    "victory": false,
+    "game_over_reason": "达到25年上限，游戏结束",
+    "yearly_records": 25
+  },
+  "yearly_records": [
+    {
+      "year": 1,
+      "country_score": 64,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries and using organic fertilizer can enhance marine biodiversity and improve coastal water quality, supporting sustainable seafood production and healthier ecosystems.",
+        "challenges": "Overfishing from fisheries development may deplete fish stocks, while runoff from organic fertilizers could lead to nutrient pollution, causing harmful algal blooms and disrupting marine habitats."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 2,
+      "country_score": 64,
+      "shoreline_score": 97,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local economies and food security by increasing fish production, while closing fisheries can allow marine ecosystems to recover and improve biodiversity.",
+        "challenges": "Developing fisheries may lead to overfishing and habitat degradation, while closing fisheries can cause economic hardship for communities reliant on fishing industries."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": 0,
+          "occurred": true
+        },
+        {
+          "name": "洋流变化",
+          "description": "海洋洋流模式发生变化",
+          "country_impact": 1,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 0,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -4
+      }
+    },
+    {
+      "year": 3,
+      "country_score": 68,
+      "shoreline_score": 97,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic growth, while using organic fertilizer can improve soil health and reduce harmful runoff into marine ecosystems.",
+        "challenges": "Overfishing from fisheries development may deplete marine biodiversity, and excessive organic fertilizer use can still lead to nutrient pollution, causing algal blooms and hypoxia in coastal waters."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 4,
+      "country_score": 72,
+      "shoreline_score": 97,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "The development of fisheries can enhance local food security and economic growth, while the use of organic fertilizer can improve soil health and reduce harmful runoff into marine ecosystems.",
+        "challenges": "Overfishing from fisheries development can deplete marine biodiversity, and excessive organic fertilizer runoff may lead to nutrient pollution and harmful algal blooms in coastal waters."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 5,
+      "country_score": 74,
+      "shoreline_score": 99,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic growth, while closing factories may reduce pollution, improving water quality and marine biodiversity.",
+        "challenges": "Overfishing from developed fisheries could deplete fish stocks, and closing factories might lead to economic downturns, increasing pressure on coastal communities reliant on industrial jobs."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 6,
+      "country_score": 77,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries and closing factories can lead to improved marine biodiversity and cleaner coastal waters, fostering sustainable economic and ecological benefits.",
+        "challenges": "Reduced industrial activity may disrupt local economies, while expanding fisheries could risk overfishing and habitat degradation if not managed responsibly."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "风暴潮",
+          "description": "强风暴潮侵蚀海岸线",
+          "country_impact": -1,
+          "shoreline_impact": -3,
+          "occurred": true
+        },
+        {
+          "name": "生态旅游兴起",
+          "description": "生态旅游带来经济效益",
+          "country_impact": 2,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 1,
+        "random_shoreline_impact": -1
+      }
+    },
+    {
+      "year": 7,
+      "country_score": 79,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic growth, while closing factories may reduce pollution, leading to improved water quality and healthier marine ecosystems.",
+        "challenges": "Overfishing from fisheries development can deplete fish stocks and disrupt marine biodiversity, and closing factories may lead to economic downturns and unemployment in coastal communities."
+      },
+      "judge_scores": {
+        "first_country": -3,
+        "first_shoreline": 5,
+        "second_country": 4,
+        "second_shoreline": -4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 8,
+      "country_score": 81,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic growth, while closing factories may reduce pollution, improving water quality and marine biodiversity.",
+        "challenges": "Overfishing from fishery development can deplete fish stocks, and closing factories may lead to economic downturns, affecting coastal communities dependent on industrial activities."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 9,
+      "country_score": 83,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance food security and economic growth, while closing factories may reduce pollution, leading to healthier marine ecosystems and increased biodiversity.",
+        "challenges": "Overfishing from developed fisheries can deplete fish stocks and disrupt marine food webs, and closing factories may lead to economic downturns, impacting coastal communities reliant on industrial jobs."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 10,
+      "country_score": 85,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries could enhance local seafood supply and economic opportunities, while closing factories may reduce pollution, improving water quality and marine biodiversity.",
+        "challenges": "Overfishing from fisheries development could deplete fish stocks and disrupt ecosystems, and closing factories might lead to economic downturns, affecting communities reliant on industrial jobs."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 11,
+      "country_score": 87,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic growth, while closing factories may reduce pollution, improving marine biodiversity and water quality.",
+        "challenges": "Overfishing from fishery development could deplete fish stocks and disrupt ecosystems, and factory closures might lead to economic downturns, affecting coastal communities dependent on industrial jobs."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 12,
+      "country_score": 89,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic growth by increasing seafood availability, while closing factories can reduce pollution, improving water quality and supporting marine biodiversity.",
+        "challenges": "Developing fisheries may lead to overfishing and habitat destruction, while closing factories could cause economic downturns and job losses, potentially increasing pressure on marine resources from alternative livelihoods."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 13,
+      "country_score": 91,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance marine biodiversity and provide sustainable livelihoods, while closing factories may reduce pollution, improving water quality and ecosystem health.",
+        "challenges": "Overfishing from fisheries development could deplete fish stocks and disrupt marine ecosystems, and reduced industrial activity might lead to economic downturns affecting coastal communities."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 14,
+      "country_score": 91,
+      "shoreline_score": 98,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic opportunities, while closing factories may reduce pollution, leading to healthier marine ecosystems.",
+        "challenges": "Overfishing from fishery development could deplete fish stocks, and closing factories may disrupt local economies dependent on industrial activities."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "极端高温",
+          "description": "海洋极端高温事件",
+          "country_impact": -2,
+          "shoreline_impact": -3,
+          "occurred": true
+        },
+        {
+          "name": "渔业资源波动",
+          "description": "渔业资源因自然因素波动",
+          "country_impact": 0,
+          "shoreline_impact": -1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -4
+      }
+    },
+    {
+      "year": 15,
+      "country_score": 95,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance local food security and economic growth, while closing factories may reduce pollution, improving marine biodiversity and ecosystem health.",
+        "challenges": "Overfishing from fisheries development can deplete fish stocks, and the economic impact of closing factories may lead to unemployment and reduced funding for coastal conservation efforts."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "生态旅游兴起",
+          "description": "生态旅游带来经济效益",
+          "country_impact": 2,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 2,
+        "random_shoreline_impact": 1
+      }
+    },
+    {
+      "year": 16,
+      "country_score": 97,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries and closing factories may lead to enhanced marine biodiversity and improved water quality, fostering healthier coastal ecosystems.",
+        "challenges": "These actions could result in economic disruptions for local communities dependent on fishing and industrial activities, potentially leading to social and financial instability."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 17,
+      "country_score": 96,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Promoting public transportation and closing factories can reduce pollution, leading to improved water quality and healthier marine ecosystems.",
+        "challenges": "Reduced industrial activity may decrease local economic resilience, potentially impacting communities dependent on factories for livelihoods."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "清洁技术突破",
+          "description": "新的清洁技术突破降低污染",
+          "country_impact": 2,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 2,
+        "random_shoreline_impact": 3
+      }
+    },
+    {
+      "year": 18,
+      "country_score": 93,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Promoting public transportation and closing factories can reduce pollution, leading to healthier marine ecosystems and improved water quality along the shoreline.",
+        "challenges": "Reduced industrial activity may lead to economic downturns in coastal communities, potentially increasing pressure on marine resources for livelihoods."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 19,
+      "country_score": 90,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced pollution from fewer cars and factories may improve water quality, benefiting marine life and shoreline ecosystems.",
+        "challenges": "Decreased industrial activity may lead to economic downturns in coastal communities, potentially reducing funding for shoreline conservation efforts."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 20,
+      "country_score": 87,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced pollution from fewer cars and factory emissions may lead to healthier marine ecosystems and improved water quality along the shoreline.",
+        "challenges": "Economic impacts from factory closures and shifts in public transportation infrastructure could strain coastal communities dependent on industrial jobs and tourism."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 21,
+      "country_score": 86,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Promoting public transportation and closing factories can reduce pollution, leading to healthier marine ecosystems and opportunities for biodiversity recovery in shoreline areas.",
+        "challenges": "Reduced industrial activity may decrease economic opportunities for coastal communities, potentially leading to increased pressure on marine resources for alternative livelihoods."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "国际援助",
+          "description": "获得国际环保资金援助",
+          "country_impact": 3,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 2,
+        "random_shoreline_impact": 1
+      }
+    },
+    {
+      "year": 22,
+      "country_score": 82,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced pollution from fewer vehicles and factories may improve water quality, enhancing marine biodiversity and ecosystem health.",
+        "challenges": "Decreased industrial activity could lead to economic downturns in coastal communities, potentially increasing pressure on marine resources for livelihoods."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": -1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 23,
+      "country_score": 80,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced pollution from fewer cars and factories may lead to improved water quality and healthier marine ecosystems.",
+        "challenges": "Decreased industrial activity could disrupt local economies dependent on factories, potentially leading to increased pressure on coastal resources for alternative livelihoods."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "海洋生物多样性增加",
+          "description": "海洋生物多样性自然增加",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 1,
+        "random_shoreline_impact": 2
+      }
+    },
+    {
+      "year": 24,
+      "country_score": 80,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "Promoting public transportation can reduce coastal pollution and organic fertilizer use can enhance marine biodiversity by minimizing harmful runoff.",
+        "challenges": "Increased public transportation may lead to higher coastal development pressure, and organic fertilizer runoff could still contribute to nutrient overloading in sensitive marine ecosystems."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "海洋保护区成效",
+          "description": "海洋保护区政策显现成效",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -2,
+        "shoreline": 5,
+        "random_country_impact": 1,
+        "random_shoreline_impact": 2
+      }
+    },
+    {
+      "year": 25,
+      "country_score": 79,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "promote public transportation",
+        "action_2": "use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "Promoting public transportation and using organic fertilizer can reduce pollution runoff into coastal waters, potentially improving marine biodiversity and water quality.",
+        "challenges": "Increased public transportation infrastructure near shorelines may lead to habitat disruption, while organic fertilizer runoff could still contribute to nutrient pollution in the sea if not managed properly."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -2,
+        "shoreline": 5,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    }
+  ]
+}

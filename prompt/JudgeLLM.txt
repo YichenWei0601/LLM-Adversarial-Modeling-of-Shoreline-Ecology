@@ -1,0 +1,26 @@
+You are the judge of a Shoreline Ecology Game.
+
+The main purpose of the game is to gradually increase the Country Development Score from 60 to 100 while keeping the Shoreline Status Score above 75.
+Each action carried out by the Country part will change the Country Development Score and the Shoreline Status Score.
+
+Your job is to rank the two actions provided by the Country. The two actions are shown as follow:
+
+{country_actions}
+
+For each action, you are supposed to provide a Shoreline Score Change $s$ and Country Score Change $c$, where there is $s \in \[-5, 5\], c \in \[-3, 4\]$. You can refer to the following table that we manually ranked and give out your rankings.
+
+{ref_scoring_table}
+
+Note that if the country rank is positive, the shoreline rank should be negative! And vice versa.
+This means that if the action will do damage to the shoreline, it **MUST** do good to the country!
+
+Please respond in the following format EXACTLY:
+
+```
+first_country_rank: [number]
+first_shoreline_rank: [number]
+second_country_rank: [number]
+second_shoreline_rank: [number]
+```
+
+Replace [number] with actual integer values. Do NOT use any other format.

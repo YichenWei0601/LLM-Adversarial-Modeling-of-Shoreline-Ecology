@@ -1,0 +1,134 @@
+{
+  "game_summary": {
+    "initial_scores": {
+      "country": 60,
+      "shoreline": 100
+    },
+    "final_scores": {
+      "country": 100,
+      "shoreline": 58
+    },
+    "total_years": 3,
+    "victory": true,
+    "game_over_reason": "国家发展达到100分，获得胜利",
+    "yearly_records": 3
+  },
+  "yearly_records": [
+    {
+      "year": 1,
+      "country_score": 76,
+      "shoreline_score": 89,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "urban expansion"
+      },
+      "shore_response": {
+        "opportunities": "The sea may provide increased economic opportunities through enhanced fisheries and tourism due to urban expansion.",
+        "challenges": "The sea may face ecosystem degradation and increased pollution from overfishing and urban waste runoff."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": 10,
+        "second_shoreline": -10
+      },
+      "random_events": [
+        {
+          "name": "海洋生物多样性增加",
+          "description": "海洋生物多样性自然增加",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 14,
+        "shoreline": -14,
+        "random_country_impact": 1,
+        "random_shoreline_impact": 2
+      }
+    },
+    {
+      "year": 2,
+      "country_score": 92,
+      "shoreline_score": 76,
+      "country_actions": {
+        "action_1": "urban expansion",
+        "action_2": "develop industry"
+      },
+      "shore_response": {
+        "opportunities": "Urban expansion and industrial development may lead to increased investment in coastal infrastructure, creating opportunities for enhanced marine tourism, fishing industries, and renewable energy projects like offshore wind farms.",
+        "challenges": "These actions can exacerbate coastal erosion, pollution, and habitat destruction, while also increasing vulnerability to sea level rise and storm surges."
+      },
+      "judge_scores": {
+        "first_country": 10,
+        "first_shoreline": -10,
+        "second_country": 4,
+        "second_shoreline": -5
+      },
+      "random_events": [
+        {
+          "name": "清洁技术突破",
+          "description": "新的清洁技术突破降低污染",
+          "country_impact": 2,
+          "shoreline_impact": 2,
+          "occurred": true
+        },
+        {
+          "name": "气候变化影响",
+          "description": "气候变化对海岸线造成缓慢影响",
+          "country_impact": 0,
+          "shoreline_impact": -2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 14,
+        "shoreline": -15,
+        "random_country_impact": 1,
+        "random_shoreline_impact": 1
+      }
+    },
+    {
+      "year": 3,
+      "country_score": 100,
+      "shoreline_score": 58,
+      "country_actions": {
+        "action_1": "develop industry",
+        "action_2": "urban expansion"
+      },
+      "shore_response": {
+        "opportunities": "The sea may offer opportunities for industrial and urban development through expanded trade routes, renewable energy potential, and tourism growth.",
+        "challenges": "The sea may pose challenges such as coastal erosion, increased flood risks, and habitat destruction due to industrial and urban expansion."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -5,
+        "second_country": 10,
+        "second_shoreline": -10
+      },
+      "random_events": [
+        {
+          "name": "风暴潮",
+          "description": "强风暴潮侵蚀海岸线",
+          "country_impact": -1,
+          "shoreline_impact": -3,
+          "occurred": true
+        },
+        {
+          "name": "洋流变化",
+          "description": "海洋洋流模式发生变化",
+          "country_impact": 0,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 14,
+        "shoreline": -15,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -4
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "api_key": "your-openai-api-key-here",
+  "base_url": "https://api.openai.com/v1",
+  "model": "gpt-3.5-turbo",
+  "initial_country_score": 60,
+  "initial_shoreline_score": 100,
+  "max_years": 25,
+  "victory_threshold": 100,
+  "failure_threshold": 75,
+  "pause_between_years": true,
+  "pause_duration": 5.0,
+  "annual_bonus": 1,
+  "use_llm_for_random_events": true,
+  "enable_random_events": true,
+  "disaster_probability_modifier": 1.0,
+  "default_mode": "2",
+  "num_games": 10,
+  "fast_mode": true
+}

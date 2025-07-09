@@ -1,0 +1,768 @@
+{
+  "game_summary": {
+    "initial_scores": {
+      "country": 60,
+      "shoreline": 100
+    },
+    "final_scores": {
+      "country": 3,
+      "shoreline": 100
+    },
+    "total_years": 25,
+    "victory": false,
+    "game_over_reason": "达到25年上限，游戏结束",
+    "yearly_records": 25
+  },
+  "yearly_records": [
+    {
+      "year": 1,
+      "country_score": 63,
+      "shoreline_score": 99,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries could enhance food security and economic growth through sustainable seafood harvesting, while organic fertilizer use may reduce coastal pollution, supporting healthier marine ecosystems.",
+        "challenges": "Overfishing risks depleting fish stocks and disrupting marine biodiversity, and excess organic fertilizer runoff could still cause eutrophication, triggering harmful algal blooms and oxygen-depleted \"dead zones.\""
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 2,
+      "country_score": 64,
+      "shoreline_score": 99,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance economic growth through sustainable resource utilization, while closing fisheries can allow marine ecosystems to recover, boosting biodiversity and long-term ecological resilience.",
+        "challenges": "Overdevelopment of fisheries risks overfishing and habitat degradation, while closure may trigger economic hardship in coastal communities reliant on fishing livelihoods, exacerbating social and economic vulnerabilities."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 0,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 3,
+      "country_score": 66,
+      "shoreline_score": 96,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries can enhance food security and economic growth by sustainably harvesting marine resources, while organic fertilizer use reduces coastal pollution, promoting healthier aquatic ecosystems and supporting marine biodiversity.",
+        "challenges": "Overfishing risks depleting fish stocks and disrupting marine food webs, while nutrient runoff from organic fertilizers (if excessive) may still cause eutrophication, harming water quality and sea life."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": 0,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 4,
+      "country_score": 68,
+      "shoreline_score": 93,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "The sea may support sustainable fisheries development by enhancing marine biodiversity and providing economic opportunities, while organic fertilizer use can reduce coastal pollution, promoting healthier seagrass and coral ecosystems.",
+        "challenges": "Overfishing risks destabilizing fish populations and food webs, and excess organic fertilizer runoff could still cause eutrophication, triggering algal blooms and hypoxia in coastal waters despite reduced chemical contamination."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "海洋生物多样性增加",
+          "description": "海洋生物多样性自然增加",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        },
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": 0,
+          "occurred": true
+        },
+        {
+          "name": "洋流变化",
+          "description": "海洋洋流模式发生变化",
+          "country_impact": 1,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 5,
+      "country_score": 63,
+      "shoreline_score": 98,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Close fisheries"
+      },
+      "shore_response": {
+        "challenges": "Organic fertilizers may still contribute to nutrient overload in coastal waters if mismanaged, risking algal blooms, and fishery closures may trigger economic hardship in coastal communities or incentivize illegal fishing if enforcement is inadequate.",
+        "opportunities": "Organic fertilizer use can reduce toxic runoff and improve water quality, fostering healthier coastal habitats, while fishery closures can allow overexploited fish populations to recover, enhancing biodiversity and long-term fishery sustainability."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海洋酸化",
+          "description": "海洋酸化影响海洋生态系统",
+          "country_impact": -1,
+          "shoreline_impact": -2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 6,
+      "country_score": 59,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced chemical runoff from organic fertilizers and decreased industrial pollution from factory closures may enhance marine biodiversity, improve water quality, and support the recovery of coastal ecosystems.",
+        "challenges": "Residual pollutants from historical factory operations and potential nutrient overload from organic fertilizers could persist, while economic disruptions from closures might indirectly pressure coastal communities to overexploit marine resources."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 8,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 7,
+      "country_score": 55,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced nutrient runoff from organic fertilizers and decreased industrial pollution may enhance marine biodiversity, stabilize coastal ecosystems, and support fisheries recovery.",
+        "challenges": "Legacy pollutants, rising sea levels, and ocean acidification may persist, undermining habitat restoration and amplifying erosion risks despite reduced local stressors."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 8,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 8,
+      "country_score": 52,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Build green buildings"
+      },
+      "shore_response": {
+        "opportunities": "The sea may benefit from reduced chemical runoff and enhanced coastal resilience, fostering healthier marine ecosystems and biodiversity due to improved water quality and stabilized shorelines.",
+        "challenges": "The sea could still face nutrient overload from organic fertilizer mismanagement and increased vulnerability of green buildings to erosion, storm surges, or saltwater corrosion without adaptive design."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -2,
+        "second_shoreline": 1
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -3,
+        "shoreline": 4,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 9,
+      "country_score": 49,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Build green buildings",
+        "action_2": "Use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "The sea could enhance green building efficiency through natural cooling and renewable energy integration, while organic fertilizers may reduce eutrophication risks, improving coastal water quality and supporting marine biodiversity.",
+        "challenges": "Rising sea levels and storm surges could threaten green building infrastructure, and coastal flooding might wash organic fertilizers into marine systems, exacerbating nutrient imbalances despite their eco-friendly composition."
+      },
+      "judge_scores": {
+        "first_shoreline": 1,
+        "second_shoreline": 3,
+        "first_country": -2,
+        "second_country": -1
+      },
+      "random_events": [
+        {
+          "name": "海洋保护区成效",
+          "description": "海洋保护区政策显现成效",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        },
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": -1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -3,
+        "shoreline": 4,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 10,
+      "country_score": 47,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Promote public transportation"
+      },
+      "shore_response": {
+        "opportunities": "Reduced nutrient runoff from organic fertilizers and lower coastal pollution from decreased vehicle emissions could enhance marine biodiversity and improve water quality, fostering healthier ecosystems like seagrass beds and coral reefs.",
+        "challenges": "Persistent organic fertilizer leaching or inadequate public transport infrastructure near shores might still contribute to eutrophication or habitat disruption, exacerbating algal blooms or coastal erosion under rising sea levels."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -2,
+        "shoreline": 5,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 11,
+      "country_score": 43,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Promote public transportation"
+      },
+      "shore_response": {
+        "opportunities": "Reduced chemical runoff from organic fertilizers and lower emissions from public transportation adoption could enhance coastal water quality, supporting marine biodiversity and fostering eco-tourism opportunities.",
+        "challenges": "Organic fertilizer runoff may still contribute to nutrient overload in coastal zones, risking algal blooms, while rising sea levels exacerbated by residual emissions could threaten shoreline infrastructure despite transportation improvements."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [
+        {
+          "name": "海平面上升",
+          "description": "全球变暖导致海平面显著上升",
+          "country_impact": -1,
+          "shoreline_impact": -2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -2,
+        "shoreline": 5,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -3
+      }
+    },
+    {
+      "year": 12,
+      "country_score": 39,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Improved water quality from reduced pollution (via fewer vehicles and factory closures) could enhance marine biodiversity, revive fisheries, and support ecotourism along the shoreline.",
+        "challenges": "Coastal erosion, sea-level rise, or storm surges may still threaten shoreline stability if broader climate measures are neglected, and displaced workers from closed factories could face economic vulnerability if coastal job alternatives are lacking."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 13,
+      "country_score": 40,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote ecotourism initiatives to leverage improved marine biodiversity",
+        "action_2": "Implement coastal erosion control measures"
+      },
+      "shore_response": {
+        "opportunities": "The sea may provide enhanced ecosystem services through restored habitats and biodiversity from ecotourism, while erosion control measures could stabilize shorelines, fostering resilient coastal communities and sustainable tourism economies.",
+        "challenges": "Rising sea levels and storm surges may undermine erosion control infrastructure, and increased human activity from ecotourism could disrupt fragile marine ecosystems or exacerbate pollution if not carefully managed."
+      },
+      "judge_scores": {
+        "first_country": 3,
+        "first_shoreline": -3,
+        "second_country": -2,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": 1,
+        "shoreline": 1,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 14,
+      "country_score": 45,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Develop fisheries",
+        "action_2": "Use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "The sea may support sustainable fisheries development and enhanced marine biodiversity through reduced chemical runoff from organic fertilizers.",
+        "challenges": "The sea may face overexploitation of fish stocks and persistent nutrient pollution if organic fertilizer use is mismanaged, destabilizing coastal ecosystems."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "国际援助",
+          "description": "获得国际环保资金援助",
+          "country_impact": 3,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": 2,
+        "random_shoreline_impact": 3
+      }
+    },
+    {
+      "year": 15,
+      "country_score": 37,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Close fisheries"
+      },
+      "shore_response": {
+        "challenges": "Persistent marine pollutants or historic overfishing legacies might slow ecosystem recovery, and shifting trophic dynamics from sudden fishery closures could destabilize predator-prey relationships or increase invasive species dominance.",
+        "opportunities": "Reduced nutrient runoff from organic fertilizers could improve coastal water quality, while fishery closures may allow fish populations and degraded habitats to recover, enhancing biodiversity and ecosystem resilience."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海啸",
+          "description": "强烈海啸袭击海岸线，造成严重破坏",
+          "country_impact": -3,
+          "shoreline_impact": -3,
+          "occurred": true
+        },
+        {
+          "name": "极端高温",
+          "description": "海洋极端高温事件",
+          "country_impact": -2,
+          "shoreline_impact": -3,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -4,
+        "random_shoreline_impact": -6
+      }
+    },
+    {
+      "year": 16,
+      "country_score": 33,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced nutrient runoff from organic fertilizers and decreased industrial pollutants from factory closures could enhance marine biodiversity, improve water quality, and support the recovery of coastal ecosystems like seagrass beds and coral reefs.",
+        "challenges": "Persistent marine pollutants, coastal erosion, or rising sea levels may counteract benefits, while residual contaminants in sediments or altered hydrodynamic patterns could delay ecological restoration."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 8,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 17,
+      "country_score": 31,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Use organic fertilizer",
+        "action_2": "Promote public transportation"
+      },
+      "shore_response": {
+        "opportunities": "Reduced nutrient runoff from organic fertilizers and lower coastal pollution from decreased vehicular emissions may enhance marine biodiversity, improve water quality, and support resilient coastal ecosystems.",
+        "challenges": "Despite these measures, rising sea levels, storm surges, and ocean acidification driven by global climate change may still erode shorelines, threaten habitats, and compromise infrastructure resilience."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -1,
+        "second_shoreline": 2
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -2,
+        "shoreline": 5,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 18,
+      "country_score": 27,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "challenges": "Persistent marine degradation from legacy pollutants and global oceanic stressors complicating ecosystem recovery despite local mitigation efforts.",
+        "opportunities": "Improved water quality and marine biodiversity due to reduced land-based pollution from decreased vehicular emissions and industrial discharge."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 19,
+      "country_score": 23,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced pollution from transportation and industrial sources may improve water quality, fostering marine biodiversity recovery and enhancing coastal ecosystem resilience.",
+        "challenges": "Coastal habitat disruption could still occur if public transport infrastructure expands shoreward, while factory closures may leave legacy pollutants or economic voids that indirectly strain shoreline management."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 20,
+      "country_score": 22,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Build green buildings"
+      },
+      "shore_response": {
+        "opportunities": "Reduced emissions from public transportation and green buildings could enhance coastal ecosystem resilience and water quality, fostering marine biodiversity and mitigating climate-driven sea impacts.",
+        "challenges": "Rising sea levels and storm surges may threaten coastal public transit infrastructure and erode the long-term sustainability of green buildings despite their environmental benefits."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -2,
+        "second_shoreline": 1
+      },
+      "random_events": [
+        {
+          "name": "国际援助",
+          "description": "获得国际环保资金援助",
+          "country_impact": 3,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -3,
+        "shoreline": 3,
+        "random_country_impact": 2,
+        "random_shoreline_impact": 2
+      }
+    },
+    {
+      "year": 21,
+      "country_score": 18,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced pollution from fewer vehicles and factories may improve water quality and support marine ecosystem recovery, enhancing biodiversity and coastal resilience.",
+        "challenges": "Despite lowered emissions, existing sea-level rise and intensified storm surges driven by historical emissions may still erode shores and threaten coastal communities."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 22,
+      "country_score": 14,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced emissions from both actions could lower pollution inputs into coastal waters, fostering marine ecosystem recovery and enhancing resilience to climate stressors like ocean warming.",
+        "challenges": "Existing sea-level rise and intensified storm surges, partially mitigated by these actions, may still threaten shoreline infrastructure and habitats, necessitating adaptive measures despite pollution reductions."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 23,
+      "country_score": 10,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced land-based pollution from transportation and industry could improve coastal water quality, fostering marine biodiversity recovery and enhancing resilience against sea-level rise.",
+        "challenges": "Diminished human activity near shores may reduce economic incentives for coastal protection measures, leaving ecosystems vulnerable to unchecked erosion, storm surges, or invasive species spread facilitated by rising sea temperatures."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 24,
+      "country_score": 6,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced emissions and pollution from both actions could enhance marine ecosystem resilience, fostering biodiversity recovery and promoting eco-tourism or sustainable fisheries along healthier shorelines.",
+        "challenges": "Despite reduced human impacts, rising sea levels and intensified storms linked to prior climate change may still exacerbate coastal erosion and flooding, while legacy pollutants could delay habitat restoration."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 25,
+      "country_score": 3,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "Promote public transportation",
+        "action_2": "Close some factories"
+      },
+      "shore_response": {
+        "opportunities": "Reduced emissions from fewer vehicles and factories may improve coastal water quality and support marine biodiversity recovery.",
+        "challenges": "Persistent sea-level rise and storm surges could still threaten shorelines if global climate measures remain inadequate, despite local pollution reductions."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 2,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "珊瑚礁复苏",
+          "description": "珊瑚礁生态系统自然恢复",
+          "country_impact": 1,
+          "shoreline_impact": 3,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 1,
+        "random_shoreline_impact": 3
+      }
+    }
+  ]
+}

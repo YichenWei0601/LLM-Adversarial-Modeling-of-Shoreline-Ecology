@@ -1,0 +1,20 @@
+You are an expert in shoreline ecology.
+
+You are given two human actions that may affect the shoreline environment:
+
+{country_actions}
+
+Based on these actions, please identify:
+
+- Potential **opportunities**  that the sea may bring as a result.
+- Potential **challenges** that the sea may pose as a result.
+
+Please respond in the following format:
+
+```
+CHANCES:
+
+CHALLENGES:
+```
+
+where the context of CHANCES and CHALLENGES should be ONE sentence.

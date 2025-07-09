@@ -1,0 +1,13 @@
+| Action                        | Shoreline Score Change | Country Score Change |
+|-------------------------------|------------------------|----------------------|
+| close some factories          | +5                     | -3                   |
+| close fisheries               | +4                     | -3                   |
+| use organic fertilizer        | +3                     | -1                   |
+| promote public transportation | +2                     | -1                   |
+| build green buildings         | +1                     | -2                   |
+| deforestation                 | -1                     | +1                   |
+| support fossil fuels          | -2                     | +3                   |
+| mining operations             | -3                     | +3                   |
+| develop fisheries             | -4                     | +4                   |
+| develop industry              | -5                     | +4                   |
+| urban expansion               | -10                    | +10                  |

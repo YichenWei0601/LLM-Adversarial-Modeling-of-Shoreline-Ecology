@@ -1,0 +1,770 @@
+{
+  "game_summary": {
+    "initial_scores": {
+      "country": 60,
+      "shoreline": 100
+    },
+    "final_scores": {
+      "country": 0,
+      "shoreline": 100
+    },
+    "total_years": 25,
+    "victory": false,
+    "game_over_reason": "达到25年上限，游戏结束",
+    "yearly_records": 25
+  },
+  "yearly_records": [
+    {
+      "year": 1,
+      "country_score": 63,
+      "shoreline_score": 98,
+      "country_actions": {
+        "action_1": "develop fisheries",
+        "action_2": "use organic fertilizer"
+      },
+      "shore_response": {
+        "opportunities": "Developing fisheries and using organic fertilizer can enhance marine biodiversity and promote sustainable aquaculture, potentially improving the health of shoreline ecosystems.",
+        "challenges": "Overfishing from fisheries and nutrient runoff from organic fertilizers may lead to habitat degradation and algal blooms, threatening shoreline ecological balance."
+      },
+      "judge_scores": {
+        "first_country": 4,
+        "first_shoreline": -4,
+        "second_country": -1,
+        "second_shoreline": 3
+      },
+      "random_events": [
+        {
+          "name": "气候变化影响",
+          "description": "气候变化对海岸线造成缓慢影响",
+          "country_impact": 1,
+          "shoreline_impact": 0,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": 3,
+        "shoreline": -1,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 2,
+      "country_score": 60,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The use of organic fertilizer may reduce harmful runoff, improving water quality and promoting healthier marine ecosystems, while closing fisheries can allow overexploited fish populations to recover, enhancing biodiversity.",
+        "challenges": "The use of organic fertilizer may still lead to nutrient overload in coastal waters, causing algal blooms, and closing fisheries can disrupt local economies and food security for coastal communities."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 3,
+      "country_score": 57,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face increased algal blooms from nutrient-rich organic fertilizers and socio-economic disruptions in coastal communities dependent on fisheries."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 4,
+      "country_score": 53,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer and decreased fishing pressure from closed fisheries.",
+        "challenges": "The sea may face potential economic impacts on coastal communities and disruptions to marine food webs as a result of reduced fishery activities and changes in nutrient dynamics."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海岸侵蚀",
+          "description": "长期海岸侵蚀加剧",
+          "country_impact": -1,
+          "shoreline_impact": -2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 5,
+      "country_score": 50,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The use of organic fertilizer can improve water quality by reducing chemical runoff, fostering healthier marine ecosystems, while closing fisheries can allow fish populations to recover, enhancing biodiversity.",
+        "challenges": "Organic fertilizer may still cause nutrient overloading and algal blooms if not managed properly, and closing fisheries can lead to economic hardship for coastal communities dependent on fishing."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 6,
+      "country_score": 47,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The use of organic fertilizer can reduce harmful chemical runoff, improving water quality and fostering healthier marine ecosystems, while closing fisheries can allow overexploited fish populations to recover, enhancing biodiversity.",
+        "challenges": "Reduced agricultural productivity due to organic fertilizers may lead to increased food prices, and the closure of fisheries could cause economic hardship for fishing communities dependent on marine resources."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 7,
+      "country_score": 44,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face economic impacts on coastal communities reliant on fisheries and potential shifts in marine ecosystems due to altered nutrient dynamics from organic fertilizer use."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 8,
+      "country_score": 41,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face shifts in ecosystem dynamics and potential economic impacts on coastal communities due to changes in nutrient cycles and the cessation of fishing activities."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 9,
+      "country_score": 37,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "Using organic fertilizer can improve water quality and promote healthier marine ecosystems, while closing fisheries can allow fish populations to recover and enhance biodiversity.",
+        "challenges": "Organic fertilizer runoff may still contribute to nutrient pollution in some cases, and closing fisheries can lead to economic hardships for communities reliant on fishing industries."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": -1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 10,
+      "country_score": 35,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The use of organic fertilizer can enhance marine biodiversity by reducing harmful chemical runoff, while closing fisheries can lead to the recovery of fish populations and improve ecosystem resilience.",
+        "challenges": "Organic fertilizer may still contribute to nutrient pollution if overused, and closing fisheries could disrupt local economies and livelihoods dependent on fishing."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海洋生物多样性增加",
+          "description": "海洋生物多样性自然增加",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 1,
+        "random_shoreline_impact": 2
+      }
+    },
+    {
+      "year": 11,
+      "country_score": 32,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer and the recovery of fish populations from closed fisheries.",
+        "challenges": "The sea may face economic disruption for coastal communities reliant on fishing and potential nutrient imbalances from the altered use of organic fertilizers."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 12,
+      "country_score": 29,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face economic disruptions for coastal communities reliant on fisheries and potential nutrient imbalances from organic fertilizers affecting marine ecosystems."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 13,
+      "country_score": 24,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face challenges such as algal blooms from nutrient overload from organic fertilizer and socio-economic impacts on coastal communities reliant on fisheries."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海平面上升",
+          "description": "全球变暖导致海平面显著上升",
+          "country_impact": -1,
+          "shoreline_impact": -2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -2,
+        "random_shoreline_impact": -3
+      }
+    },
+    {
+      "year": 14,
+      "country_score": 22,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer use and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face challenges such as nutrient imbalances from organic fertilizer runoff and economic disruptions to coastal communities reliant on fishing due to fishery closures."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海洋保护区成效",
+          "description": "海洋保护区政策显现成效",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 1,
+        "random_shoreline_impact": 2
+      }
+    },
+    {
+      "year": 15,
+      "country_score": 18,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and increased biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face challenges such as algal blooms from nutrient-rich organic fertilizers and potential economic impacts on local communities dependent on fishing due to fishery closures."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": -1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 16,
+      "country_score": 15,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer and the recovery of fish populations from closed fisheries.",
+        "challenges": "The sea may face economic and social impacts, such as reduced livelihoods for fishing communities and potential nutrient imbalances from organic fertilizer runoff."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 17,
+      "country_score": 12,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The use of organic fertilizer and closure of fisheries can lead to improved water quality and enhanced marine biodiversity, fostering healthier ecosystems and sustainable fisheries in the long term.",
+        "challenges": "The closure of fisheries may initially disrupt local economies and livelihoods, while organic fertilizer runoff, if not managed properly, could still contribute to nutrient pollution and algal blooms."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 18,
+      "country_score": 9,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer and decreased overfishing from closed fisheries.",
+        "challenges": "The sea may face economic disruptions for coastal communities reliant on fishing industries and potential nutrient imbalances if organic fertilizers are overused."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 19,
+      "country_score": 6,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The use of organic fertilizer can enhance coastal water quality, promoting healthier marine ecosystems, while closing fisheries can allow fish populations to recover, increasing biodiversity.",
+        "challenges": "Organic fertilizer runoff may still contribute to nutrient pollution in the sea, and closing fisheries can disrupt local economies and livelihoods dependent on fishing."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 20,
+      "country_score": 3,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face economic disruptions in coastal communities reliant on fisheries and potential shifts in marine ecosystems due to altered nutrient dynamics from organic fertilizers."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 21,
+      "country_score": 0,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizer and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face increased pressure on certain marine ecosystems if displaced fishing activities concentrate in unregulated areas or if organic fertilizer runoff leads to nutrient over-enrichment in coastal waters."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "海洋生物迁移",
+          "description": "海洋生物迁移模式改变",
+          "country_impact": 0,
+          "shoreline_impact": 1,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 22,
+      "country_score": 0,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face temporary economic disruptions for coastal communities reliant on fisheries and potential shifts in marine ecosystems that could require adaptive management strategies."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "台风",
+          "description": "强台风登陆，对基础设施造成损害",
+          "country_impact": -2,
+          "shoreline_impact": -3,
+          "occurred": true
+        },
+        {
+          "name": "生态旅游兴起",
+          "description": "生态旅游带来经济效益",
+          "country_impact": 2,
+          "shoreline_impact": 1,
+          "occurred": true
+        },
+        {
+          "name": "海洋生物多样性增加",
+          "description": "海洋生物多样性自然增加",
+          "country_impact": 1,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 23,
+      "country_score": 0,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and enhanced marine biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from closed fisheries.",
+        "challenges": "The sea may face economic and social disruptions for coastal communities reliant on fisheries, and potential nutrient imbalances if organic fertilizer use is not properly managed."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 0
+      }
+    },
+    {
+      "year": 24,
+      "country_score": 0,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close fisheries"
+      },
+      "shore_response": {
+        "opportunities": "The sea may experience improved water quality and increased biodiversity due to reduced chemical runoff from organic fertilizers and the recovery of fish populations from fishery closures.",
+        "challenges": "The sea may face challenges such as algal blooms from nutrient overload if organic fertilizers are not managed properly, and potential economic impacts on coastal communities due to fishery closures."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 4
+      },
+      "random_events": [
+        {
+          "name": "洋流变化",
+          "description": "海洋洋流模式发生变化",
+          "country_impact": 0,
+          "shoreline_impact": 2,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 7,
+        "random_country_impact": -1,
+        "random_shoreline_impact": -2
+      }
+    },
+    {
+      "year": 25,
+      "country_score": 0,
+      "shoreline_score": 100,
+      "country_actions": {
+        "action_1": "use organic fertilizer",
+        "action_2": "close some factories"
+      },
+      "shore_response": {
+        "opportunities": "The sea may benefit from reduced pollution and improved water quality, fostering healthier marine ecosystems and increased biodiversity.",
+        "challenges": "The sea may still face ongoing threats from other sources of contamination and the cumulative effects of climate change, potentially undermining ecological recovery."
+      },
+      "judge_scores": {
+        "first_country": -1,
+        "first_shoreline": 3,
+        "second_country": -3,
+        "second_shoreline": 5
+      },
+      "random_events": [
+        {
+          "name": "珊瑚礁复苏",
+          "description": "珊瑚礁生态系统自然恢复",
+          "country_impact": 1,
+          "shoreline_impact": 3,
+          "occurred": true
+        }
+      ],
+      "score_changes": {
+        "country": -4,
+        "shoreline": 8,
+        "random_country_impact": 0,
+        "random_shoreline_impact": 2
+      }
+    }
+  ]
+}
